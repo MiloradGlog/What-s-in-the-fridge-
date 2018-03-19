@@ -21,17 +21,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         container = findViewById(R.id.ingredient_container);
         ingredients = new ArrayList<Ingredient>();
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
 
         ingredients.add(new Ingredient("Cabbage"));
         ingredients.add(new Ingredient("Pumpkin"));
         ingredients.add(new Ingredient("Broccoli"));
 
         fillSegmentFromList(ingredients);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
     }
 
     public void fillSegmentFromList(ArrayList<Ingredient> list){
