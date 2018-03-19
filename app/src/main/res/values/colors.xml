@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorIngredientsMeat">#D0ff0000</color>
+    <color name="colorIngredientsFruit">#D0fff700</color>
+    <color name="colorIngredientsVeg">#D000ff1f</color>
+    <color name="colorIngredientsDairy">#D0FFFFFF</color>
+    <color name="colorWhiteText">#FFFFFFFF</color>
+</resources>
